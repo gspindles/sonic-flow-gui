@@ -19,7 +19,7 @@
 
     <script type="text/javascript">
       $(document).ready(function() {
-     });
+      });
     </script>
   </head>
   <body class="container"> 
@@ -38,7 +38,7 @@
           </a>
         </h2>
       </div>
-      <div id="now-playing" class="panel-body panel-collapse collapse">
+      <div id="now-playing" class="panel-body panel-collapse collapse in">
         <p>Now Playing goes here.</p>
       </div>
     </div>
@@ -52,37 +52,33 @@
           </a>
         </h2>
       </div>
-      <div id="queue" class="panel-body panel-collapse collapse">
+      <div id="queue" class="panel-body panel-collapse collapse in">
         <p>Queue goes here.</p>
       </div>
     </div>
-  </div>
-</div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h2 class="panel-title">
-      <a data-toggle="collapse" data-target="#search" href="#search"
-        onclick="$('#search').toggle();">
-        Search
-      </a>
-    </h2>
-  </div>
-  <div id="search-panel" class="panel-body">
-    <p>Search form goes here.</p>
-  </div>
-  <div id="search" class="panel-body panel-collapse collapse">
-    <p>Search results go here.</p>
-  </div>
-</div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">
+          <a data-toggle="collapse" data-target="#search" href="#search"
+            onclick="$('#search').toggle();">
+            Search
+          </a>
+        </h2>
       </div>
+      <div id="search-panel" class="panel-body">
+        <p>Search form goes here.</p>
+      </div>
+      <div id="search" class="panel-body panel-collapse collapse in">
+        <p>Search results go here.</p>
+      </div>
+    </div>
 
-      <div class="panel panel-default">
-<div class="panel-heading mid">
-  <h2 class="panel-title">Music Streaming Courtesy of 
-  </h2>
-  <img src="../img/grooveshark.png" alt="GrooveShark Logo">
-</div>
+    <div class="panel panel-default">
+      <div class="panel-heading mid">
+        <h2 class="panel-title">Music Streaming Courtesy of 
+        </h2>
+        <img src="../img/grooveshark.png" alt="GrooveShark Logo">
       </div>
     </div>
   </body>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SonicFlow</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="Keywords" content="SonicFlow, music, ndsuacm">
+    <meta name="Description" content="A web front end for sonic flow.">
+
+    <link rel="stylesheet" media="screen" href="../css/index.css">
+    <link rel="stylesheet" media="screen" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" media="screen" href="../css/bootstrap-theme.min.css">
+
+    <script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/index.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+     });
+    </script>
+  </head>
+  <body class="container" style="min-width: 900px;">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h1 class="panel-header">SonicFlow</h1>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">
+          <a data-toggle="collapse" data-target="#now-playing" href="#now-playing"
+            onclick="$('#now-playing').toggle();">
+            Now Playing
+          </a>
+        </h2>
+      </div>
+      <div id="now-playing" class="panel-body panel-collapse collapse">
+        <p>Now Playing goes here.</p>
+      </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h2 class="panel-title">
+          <a data-toggle="collapse" data-target="#queue" href="#queue"
+            onclick="$('#queue').toggle();">
+            Queue
+          </a>
+        </h2>
+      </div>
+      <div id="queue" class="panel-body panel-collapse collapse">
+        <p>Queue goes here.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h2 class="panel-title">
+      <a data-toggle="collapse" data-target="#search" href="#search"
+        onclick="$('#search').toggle();">
+        Search
+      </a>
+    </h2>
+  </div>
+  <div id="search-panel" class="panel-body">
+    <p>Search form goes here.</p>
+  </div>
+  <div id="search" class="panel-body panel-collapse collapse">
+    <p>Search results go here.</p>
+  </div>
+</div>
+      </div>
+
+      <div class="panel panel-default">
+<div class="panel-heading mid">
+  <h2 class="panel-title">Music Streaming Courtesy of 
+  </h2>
+  <img src="../img/grooveshark.png" alt="GrooveShark Logo">
+</div>
+      </div>
+    </div>
+  </body>

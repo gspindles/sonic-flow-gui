@@ -1,4 +1,4 @@
-sonic-flow-gui
+Sonic Flow GUI
 ==============
 
-a web front end gui for sonic flow
+A web front end gui for sonic flow
